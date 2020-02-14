@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+body {
+    font-family: 'Tomorrow', sans-serif;
+    background-image: url(images/290819.jpg);
+    size: 100%;
+}
+header nav img {
+    position: relative;
+    top: 10px;
+    right: 200;
+}
+h1 {
+    margin: 0cm;
+    padding: 0.2cm;
+    text-align: center;
+}
+
+header {
+    background-color: #FFE6F7;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0.2cm;
+}
+header nav ul li a{
+    color: darkred;
+}
+#demotext {
+    color: #FFFFFF;
+    width: 100%;
+    text-shadow: 4px 3px 0px #7A7A7A;
+    color: #FFFFFF;
+    background: black;
+    }
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+ header #logo {
+     position: relative;
+     margin-right: auto;
+ }   
+ header #logo img {
+     width: 150px;
+     height: 150px;
+ }
